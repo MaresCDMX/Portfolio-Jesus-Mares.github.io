@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website - Jesús Mares</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Page Loader Start-->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!--BPage Loader End-->
+
+    <!--Background Circles Start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!--Background Circles End-->
+
+    <!--Overlay Start-->
+    <div class="overlay"></div>
+    <!--Overlay End-->
+
+    <!--Main Start-->
+    <div class="main hidden">
+      <!--Header Start-->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li>
+                    <a href="#home" class="nav-item link-item">home</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="nav-item link-item">about</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!--Header End-->
+
+      <!--Home Section Start-->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Jesús Mares</h1>
+              <h2>
+                <span class="maquina-escribir"
+                  >Frontend Web Developer &nbsp;&nbsp;&nbsp;
+                </span>
+              </h2>
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home Section End -->
+
+      <!--About Section Start-->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="about img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hi, My name is Jesús Mares 👋. I'm a Front End Engineer based in
+                Mexico City ☀️. I describe myself as a passionate developer who
+                loves coding, open source, and the web platform ❤️.. My
+                Portfolio is powered by VS Code and coffee ☕ ..
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">react</div>
+                <div class="skill-item">node js</div>
+                <div class="skill-item">express</div>
+                <div class="skill-item">python</div>
+                <div class="skill-item">wordpress</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
+
+              <!--Education Start-->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2020 - 2021</span>
+                    <h4>
+                      Academy of Computing and Informatics Sciences -
+                      <span>Academlo</span>
+                    </h4>
+                    <p>Developer Web Full-Stack.</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2014 - 2019</span>
+                    <h4>
+                      Universidad Nacional Autónoma de México -
+                      <span>Fes Aragón</span>
+                    </h4>
+                    <p>Computerstystems Engineer.</p>
+                  </div>
+                </div>
+              </div>
+              <!--Education End -->
+
+              <!--Experience Start-->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2017 - present</span>
+                    <h4>freelance web developer</h4>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2015 - present</span>
+                    <h4>online course advisor</h4>
+                    <p>Mascarones Center, DGTIC UNAM</p>
+                  </div>
+                </div>
+              </div>
+              <!--Experience End -->
+
+              <a
+                href="CV.pdf"
+                target="_blank"
+                class="btn"
+                download="Jesús-Mares-CV.pdf"
+                >download cv</a
+              >
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!--Portfolio Section Start-->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">crud website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Website where the user can manipulate the inventory of a car
+                    agency.
+                  </p>
+                  <p>
+                    The user can ● See all existing cars ● Add new cars ● Delete
+                    existing cars ● Update the information of existing cars
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>18 Dec 2020</span></li>
+                    <li>
+                      Technologies Used -
+                      <span>Html, Css, Javascript, Bootstrap 4</span>
+                    </li>
+                    <li>role - <span>Fronted</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://crud-evaluacion5.netlify.app/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/Evaluacion5-CRUD"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">consume api trivia</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Website in which the user can answer N number of questions
+                    and obtain the result of your answers. With the following
+                    filters must be available on the site so that the user can
+                    select questions:
+                  </p>
+                  <p>
+                    ● Number of questions ● Category of questions ● Difficulty ●
+                    Type (multiple choice or true and false)
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>16 Jan 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span>Html, Css, Javascript, Bootstrap 5</span>
+                    </li>
+                    <li>Role - <span>Fronted</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://trivia-project.netlify.app/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/Trivia"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3a.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">pokedex react app</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>React app with Routes and Context</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>16 Jan 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span>Html, Css, Javascript, Bootstrap 5</span>
+                    </li>
+                    <li>Role - <span>Fronted</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://deliverable-pokedex-app.netlify.app/#/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/deliverable-pokedex-routes"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">quotes for twitter</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    First application in react using state and useState hook.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>29 Jan 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span>React</span>
+                    </li>
+                    <li>Role - <span>Fronted</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://quotes-app-react.netlify.app/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/quotes-react"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/6.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">IMDB rest api</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>REST API for a IMDB.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>27 May 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span
+                        >Node Js, Express, JWT, Bcrypt, Jest, Supertest,
+                        SocketIo, Swagger</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://chat-api-rest-academlo.herokuapp.com/api-docs/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/my-rest-api-node-js"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/5.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">chat rest api</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>REST API for a real-time chat application.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>27 May 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span
+                        >Node Js, Express, JWT, Bcrypt, Jest, Supertest,
+                        SocketIo, Swagger</span
+                      >
+                    </li>
+                    <li>Role - <span>Backend</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://chat-api-rest-academlo.herokuapp.com/api-docs/"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/jesusmares82-hub/whatsup"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+
+            <!-- Portfolio Item Start-->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/7.jpeg" alt="portfolio item thumb" />
+              </div>
+              <h3 class="portfolio-item-title">Python & Pandas & Streamlit</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Python projetc with Pandas.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>28 Dic 2021</span></li>
+                    <li>
+                      Technologies Used -
+                      <span
+                        >Python, Streamlit, Numpy, Matploit, Plost,
+                        Cufflinks</span
+                      >
+                    </li>
+                    <li>Role - <span>Data Science with Python</span></li>
+                    <li>
+                      View Online -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://share.streamlit.io/marescdmx/sharp_app/main/sharp_py_app.py"
+                          target="_blank"
+                          ><i class="far fa-window-maximize"></i> View
+                          app&nbsp;</a
+                        >
+                      </span>
+                    </li>
+
+                    <li>
+                      View Code -
+                      <span>
+                        <a
+                          class="btn"
+                          href="https://github.com/MaresCDMX/Sharp_App/blob/main/sharp_py_app.py"
+                          target="_blank"
+                          ><i class="fab fa-github"></i> view code</a
+                        >
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End-->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start-->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form id="form" action="" class="form">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      name="name"
+                      id="name"
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      name="email"
+                      id="email"
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      name="subject"
+                      id="subject"
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      name="message"
+                      id="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+              <a
+                href="mailto:jesusmares82@gmail.com"
+                id="trucazo"
+                style="visibility: hidden; width: 0px"
+                >send message</a
+              >
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:jesusmares82@gmail.com?Subject=Contacto"
+                    >jesusmares82@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>
+                  <a href="https://wa.me/525548056471" target="_blank"
+                    >525548056471 <i class="fab fa-whatsapp"></i
+                  ></a>
+                </p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/jesus-mares/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin fa-3x"></i
+                  ></a>
+                  <a
+                    href="https://github.com/jesusmares82-hub?tab=repositories"
+                    target="_blank"
+                    ><i class="fab fa-github-square fa-3x"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact  Section End -->
+    </div>
+
+    <!--Main End-->
+
+    <!--Portfolio Itema Details Popup Start-->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="#" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body">
+            <div class="description"></div>
+            <div class="general-info"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Portfolio Itema Details Popup End -->
+
+    <!--Home Section Start-->
+    <!-- Home Section End -->
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7d9e4113d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
